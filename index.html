@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/ico" href="favicon/drums.ico">
+    <title>Playable Drum Kit</title>
+</head>
+<body>
+    <h1>Press a key to play</h1>
+    <div id="soundBar">
+        <div class="soundButton">
+            <button>A</button>
+            <p>Boom</p>
+            <audio src="./sounds/boom.wav" id="boom"></audio>
+        </div>
+        <div class="soundButton">
+            <button>S</button>
+            <p>Clap</p>
+            <audio src="./sounds/clap.wav" id="clap"></audio>
+        </div>
+        <div class="soundButton">
+            <button>D</button>
+            <p>Hi-Hat</p>
+            <audio src="./sounds/hihat.wav" id="hihat"></audio>
+        </div>
+        <div class="soundButton">
+            <button>F</button>
+            <p>Kick</p>
+            <audio src="./sounds/kick.wav" id="kick"></audio>
+        </div>
+        <div class="soundButton">
+            <button>G</button>
+            <p>Open-Hat</p>
+            <audio src="./sounds/openhat.wav" id="openhat"></audio>
+        </div>
+        <div class="soundButton">
+            <button>H</button>
+            <p>Ride</p>
+            <audio src="./sounds/ride.wav" id="ride"></audio>
+        </div>
+        <div class="soundButton">
+            <button>J</button>
+            <p>Snare</p>
+            <audio src="./sounds/snare.wav" id="snare"></audio>
+        </div>
+        <div class="soundButton">
+            <button>K</button>
+            <p>Tink</p>
+            <audio src="./sounds/tink.wav" id="tink"></audio>
+        </div>
+        <div class="soundButton">
+            <button>L</button>
+            <p>Tom</p>
+            <audio src="./sounds/tom.wav" id="tom"></audio>
+        </div>
+    </div>
+    <div id="drumImg">
+        <img src="drums.jpg" alt="Set of drums" id="drumkit">
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
